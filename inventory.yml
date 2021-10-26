@@ -1,0 +1,9 @@
+---
+all:
+  hosts:
+    ssh-server:
+      ansible_host: 192.168.1.70
+      ansible_port: 22
+      ansible_user: ubuntu
+      ansible_become_pass: ubuntu
+      ansible_python_interpreter: /usr/bin/python3

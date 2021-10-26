@@ -1,0 +1,7 @@
+---
+- name: Install SSH Server on Debian-Based System
+  hosts: ssh-server
+  become: yes
+  roles:
+   - install-ssh-server
+   
